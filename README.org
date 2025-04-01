@@ -3,7 +3,9 @@
 #+Email: denis.haine@gmail.com, dohoo@upei.ca, simon.dufour@umontreal.ca
 #+OPTIONS: toc:nil
 
-[![Project Status: Moved to http://codeberg.org/dhaine/cohortBias – The project has been moved to a new location, and the version at that location should be considered authoritative.](https://www.repostatus.org/badges/latest/moved.svg)](https://www.repostatus.org/#moved) to [http://codeberg.org/dhaine/cohortBias](http://codeberg.org/dhaine/cohortBias)
+#+BEGIN_EXPORT html
+<a href="https://www.repostatus.org/#moved"><img src="https://www.repostatus.org/badges/latest/moved.svg" alt="Project Status: Moved to http://codeberg.org/dhaine/cohortBias – The project has been moved to a new location, and the version at that location should be considered authoritative." /></a> to <a href="http://codeberg.org/dhaine/cohortBias">http://codeberg.org/dhaine/cohortBias</a>
+#+END_EXPORT
 
 Simulation code for paper to be submitted to /Frontiers in Veterinary Sciences/
 Research Topic: [[https://www.frontiersin.org/research-topics/6080/quantifying-and-addressing-bias-associated-with-imperfect-observation-processes-in-epidemiological-s#overview][Quantifying and Addressing Bias Associated with Imperfect
