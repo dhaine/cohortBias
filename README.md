@@ -1,20 +1,14 @@
-#+Title: Selection and Misclassification Biases in Longitudinal Studies
-#+Author: Denis Haine, Ian Dohoo, Simon Dufour
-#+Email: denis.haine@gmail.com, dohoo@upei.ca, simon.dufour@umontreal.ca
-#+OPTIONS: toc:nil
-
-@@html:<a href="https://www.repostatus.org/#moved"><img src="https://www.repostatus.org/badges/latest/moved.svg" alt="Project Status: Moved to http://codeberg.org/dhaine/cohortBias – The project has been moved to a new location, and the version at that location should be considered authoritative." /></a> to <a href="http://codeberg.org/dhaine/cohortBias">http://codeberg.org/dhaine/cohortBias</a>@@
+# Selection and Misclassification Biases in Longitudinal Studies
+#### Author: Denis Haine, Ian Dohoo, Simon Dufour
 
 [![Project Status: Moved to http://codeberg.org/dhaine/cohortBias – The project has been moved to a new location, and the version at that location should be considered authoritative.](https://www.repostatus.org/badges/latest/moved.svg)](https://www.repostatus.org/#moved) to [http://codeberg.org/dhaine/cohortBias](http://codeberg.org/dhaine/cohortBias)
 
-[[https://www.repostatus.org/badges/latest/moved.svg][Project Status: Moved to http://codeberg.org/dhaine/cohortBias – The project has been moved to a new location, and the version at that 
-location should be considered authoritative.]] to [[http://codeberg.org/dhaine/cohortBias][http://codeberg.org/dhaine/cohortBias]]
+Simulation code for paper to be submitted to *Frontiers in Veterinary Sciences*
+Research Topic: 
+[Quantifying and Addressing Bias Associated with Imperfect
+Observation Processes in Epidemiological Studies](https://www.frontiersin.org/research-topics/6080/quantifying-and-addressing-bias-associated-with-imperfect-observation-processes-in-epidemiological-s#overview).
 
-Simulation code for paper to be submitted to /Frontiers in Veterinary Sciences/
-Research Topic: [[https://www.frontiersin.org/research-topics/6080/quantifying-and-addressing-bias-associated-with-imperfect-observation-processes-in-epidemiological-s#overview][Quantifying and Addressing Bias Associated with Imperfect
-Observation Processes in Epidemiological Studies]].
-
-* Abstract
+## Abstract
 
 Using imperfect tests may lead to biased estimates of disease frequency and
 measures of association.
@@ -65,10 +59,10 @@ diagnosed with high sensitivity and close to perfect specificity.
 For more prevalent diseases we observed large risk ratio biases towards the
 null value, even with near perfect diagnosis.
 
-* Running
+## Running
 
-- =bias_analysis.R= is the source file for running the simulations.
-- Simulated data for the paper are available under =data= directory.
-- =Haine-bias-frontiers.Rnw= is the source file for the /Frontiers in Veterinary
-  Sciences/ paper. It uses the already simulated data found under =data=
-  directory and produces the graphics found under =src/graphics=.
+- `bias_analysis.R` is the source file for running the simulations.
+- Simulated data for the paper are available under `data` directory.
+- `Haine-bias-frontiers.Rnw` is the source file for the *Frontiers in Veterinary
+  Sciences* paper. It uses the already simulated data found under `data`
+  directory and produces the graphics found under src/graphics`.
